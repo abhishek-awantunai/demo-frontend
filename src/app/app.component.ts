@@ -10,7 +10,6 @@ import { Component, AfterViewInit } from '@angular/core';
 export class AppComponent implements AfterViewInit {
   title = 'demo-frontend';
 
-
   ngAfterViewInit() {
   }
 }

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
-// declare var $: any;
 
 @Component({
   selector: 'app-table',
@@ -12,7 +11,6 @@ export class TableComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log($('body'));
   }
 
 }
