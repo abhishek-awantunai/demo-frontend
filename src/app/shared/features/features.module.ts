@@ -1,17 +1,20 @@
 import { NgModule } from "@angular/core";
-import { AppBackgroundColor } from './directives/directives';
+import { AppBackgroundColor, AppRainbowDirective } from './directives/directives';
 
 @NgModule({
   declarations: [
-    AppBackgroundColor
+    AppBackgroundColor,
+    AppRainbowDirective
   ],
   imports: [],
   exports: [
-    AppBackgroundColor
+    AppBackgroundColor,
+    AppRainbowDirective
   ],
   providers: []
 })
 
 export class FeaturesModule {
   constructor() { }
+
 }

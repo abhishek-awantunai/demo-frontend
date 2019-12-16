@@ -1,5 +1,6 @@
-import { Component, AfterViewInit } from '@angular/core';
 import _ from 'lodash';
+import { Renderer2, ViewChild, ElementRef } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
